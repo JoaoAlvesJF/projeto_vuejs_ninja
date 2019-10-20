@@ -1,0 +1,44 @@
+Vue CLI -  
+*NodeJS + NPM  OU Yarn 
+
+npm instal -g @vue/cli
+
+//Criando projeto Vue
+vue create name-project
+
+//Criando projeto Vue com template Webpack
+vue init webpack name-project
+
+//Entrar na pasta
+cd nome-projeto
+
+// starta a aplicação 
+npm run dev
+
+
+
+
+Aula entende direct strut
+
+Package.json = controle de dependencias.
+readme.md - algumas instruções 
+.postcssrc - para auto-prefixiçar atributos css
+.eslintrc - configuracoes do eslint - configurar padroes de codigo
+editorconfig - conf da ide
+babelrc - converte o js pra rodar em todos os navegadores
+
+pasta biuld - conf do webpack
+   config -
+	DEV - Onde colocar vriaveis de ambiente - exemplo API_URL: "http:..."
+	prod - ... para producao ...
+	index - prove a pag vuejs, prove servidor ...
+pasta nodemodules: onde ficam as dependencias instaladas via package
+
+src:
+ main - arquivo de entraada do webpack
+app - componente principal com a instacia princial
+/assets - css/img/...
+/components - ficam os seu components
+/router - onde ficam as rotas da sua app
+static - arquivos statico - ex: logo
+test - ambiente de testes unitqarios
